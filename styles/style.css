@@ -356,3 +356,64 @@ main {
     width: 1076px;
     height: 550px;
 }
+
+/* frth part styles */
+.fourth-parts {
+    width: 90%;
+    margin: 80px auto;
+    height: 320px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+.fourth-part{
+    display: flex;
+    padding: 64px 48px;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-part h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fourth-part p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.fourth-part div input[type="text"]{
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+width: 313px;
+height: 19px;
+padding:10px 20px;
+text-align: center;
+border: none;
+border-radius: 5px;
+}
+.btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+align-items: center;
+padding: 9px 20px;
+border: none;
+border-radius: 5px;
+}
