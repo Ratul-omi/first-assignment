@@ -45,6 +45,8 @@ nav ul {
     padding: 17px 0px 17px 0px;
     width: 244px;
     height: 57px;
+    /* text-decoration: none; */
+    border: .5px solid black;
 }
 
 /* headersection styles */
@@ -93,6 +95,7 @@ nav ul {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    text-decoration: none;
 }
 
 /* Section First-part styles */
@@ -416,4 +419,25 @@ align-items: center;
 padding: 9px 20px;
 border: none;
 border-radius: 5px;
+}
+/* footer part styles */
+.footer-parts{
+    max-width: 1440px;
+
+}
+.footer-part{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+.tags{
+    display: flex;
+    gap: 24px;
 }
